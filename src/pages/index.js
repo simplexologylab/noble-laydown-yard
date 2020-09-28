@@ -1,11 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
 import styled from "styled-components"
+import { Button, Box, Text, Heading } from "grommet"
 
 const Map = styled.iframe`
   width: 100%;
@@ -39,18 +39,15 @@ const IndexPage = () => (
       <li>Strong 4G cell phone service across the property</li>
       <li>Spectrum Cable/Internet Service Access Available</li>
     </ul>
-    <h3>Contact Information</h3>
-    <p>Contact Mike Schott for more information</p>
-    <ul>
-      <li>
-        <a href="tel:7405092693">Call (740) 509-2693</a>
-      </li>
-      <li>
-        <a href="mailto: ramseytisher@gmail.com" target="_top">
-          Email
-        </a>
-      </li>
-    </ul>
+    <Box background="#bb0000" pad="small" round align="center">
+      <Heading level={3} margin="xsmall" id="contact-info">
+        Contact Information
+      </Heading>
+      <Text margin="small">
+        Call Mike Schott at 740-509-2693 for more information
+      </Text>
+      <Button href="tel:7405092693" label="Call Now" />
+    </Box>
   </Layout>
 )
 
