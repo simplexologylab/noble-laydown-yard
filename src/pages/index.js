@@ -20,15 +20,18 @@ const IndexPage = () => (
       <Box width="medium">
         <Logo />
       </Box>
-      <Button
-        primary
-        label="Contact Information"
-        color="#bb0000"
-        margin="xsmall"
-        href="#contact-info"
-        width="medium"
-        alignSelf="center"
-      />
+      <Box direction="row" align="center">
+        <Text size="large">Call Today!</Text>
+        <Button
+          primary
+          label="(740) 509-2693"
+          color="#bb0000"
+          margin="xsmall"
+          href="tel:7405092693"
+          width="medium"
+          alignSelf="center"
+        />
+      </Box>
     </Box>
     <Box pad="medium" gap="medium">
       <Text>
@@ -38,7 +41,13 @@ const IndexPage = () => (
         Route 821 within two miles of Interstate 77 (I-77) and State 78.
       </Text>
     </Box>
-    <Box pad="small" gap="small" justify="center" direction="row-responsive" height="medium">
+    <Box
+      pad="small"
+      gap="small"
+      justify="center"
+      direction="row-responsive"
+      height="medium"
+    >
       <Box width="medium">
         <Image />
       </Box>
