@@ -16,11 +16,11 @@ const Map = styled.iframe`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Box pad="small" justify="between" direction="row-responsive">
+    <Box pad="small" justify="center" direction="row-responsive">
       <Box width="medium">
         <Logo />
       </Box>
-      <Box direction="row" align="center">
+      <Box direction="row" align="center" justify="center">
         <Text size="large">Call Today!</Text>
         <Button
           primary
@@ -60,13 +60,16 @@ const IndexPage = () => (
         />
       </Box>
     </Box>
-    <ul>
-      <li>Two miles North of Caldwell, Ohio & State Route 78</li>
-      <li>Two lockable cable entrances</li>
-      <li>Restaurants & Several Campsites Nearby</li>
-      <li>Strong 4G cell phone service across the property</li>
-      <li>Spectrum Cable/Internet Service Access Available</li>
-    </ul>
+    <Box gap="small" align="center">
+      <Text size="large" color="#bb0000">Additional Features</Text>
+      <ul>
+        <li>Two miles North of Caldwell, Ohio & State Route 78</li>
+        <li>Two lockable cable entrances</li>
+        <li>Restaurants & Several Campsites Nearby</li>
+        <li>Strong 4G cell phone service across the property</li>
+        <li>Spectrum Cable/Internet Service Access Available</li>
+      </ul>
+    </Box>
     <Box background="#bb0000" pad="small" round align="center">
       <Heading level={3} margin="xsmall" id="contact-info">
         Contact Information
