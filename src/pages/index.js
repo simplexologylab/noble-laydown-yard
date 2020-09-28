@@ -15,6 +15,24 @@ const Map = styled.iframe`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Box pad="medium" gap="medium">
+      <Text>
+        We provide a laydown yard rental property for Oil and Gas companies in
+        Caldwell, Ohio in Noble County. Our location provides more than seven
+        graveled acres with more acreage available that is located along State
+        Route 821 within two miles of Interstate 77 (I-77) and State 78.
+      </Text>
+      <Button
+        primary
+        label="Contact Information"
+        color="#bb0000"
+        margin="xsmall"
+        href="#contact-info"
+        width="medium"
+        alignSelf="center"
+      />
+    </Box>
+
     <div style={{ width: `100%`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
@@ -24,15 +42,7 @@ const IndexPage = () => (
       frameborder="0"
       allowfullscreen
     />
-    <h3>
-      Ideal rental location between Belle Valley and Caldwell, Ohio on State
-      Route 821. Site includes:
-    </h3>
     <ul>
-      <li>Seven graveled Acres with more acreage available</li>
-      <li>
-        Located two miles from Interstate 77 (I-77) Exit 28 (Belle Valley)
-      </li>
       <li>Two miles North of Caldwell, Ohio & State Route 78</li>
       <li>Two lockable cable entrances</li>
       <li>Restaurants & Several Campsites Nearby</li>
