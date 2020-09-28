@@ -34,13 +34,13 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{
+        {/* <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+          <a href="https://www.gatsbyjs.com">Simplexology</a>
+        </footer> */}
       </div>
     </>
   )
