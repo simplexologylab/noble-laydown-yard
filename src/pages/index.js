@@ -38,16 +38,19 @@ const IndexPage = () => (
         Route 821 within two miles of Interstate 77 (I-77) and State 78.
       </Text>
     </Box>
-
-    <div style={{ width: `100%`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Map
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.6903813006443!2d-81.53632032026381!3d39.76588490298856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8837d3fdc5d706bb%3A0x9816db9814b2d51d!2sQuarry+Brothers+LLC+Properties!5e1!3m2!1sen!2sus!4v1543551627051"
-      title="quarry-brother-llc-prop"
-      frameborder="0"
-      allowfullscreen
-    />
+    <Box pad="small" gap="small" justify="center" direction="row-responsive" height="medium">
+      <Box width="medium">
+        <Image />
+      </Box>
+      <Box width="medium">
+        <Map
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.6903813006443!2d-81.53632032026381!3d39.76588490298856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8837d3fdc5d706bb%3A0x9816db9814b2d51d!2sQuarry+Brothers+LLC+Properties!5e1!3m2!1sen!2sus!4v1543551627051"
+          title="quarry-brother-llc-prop"
+          frameborder="0"
+          allowfullscreen
+        />
+      </Box>
+    </Box>
     <ul>
       <li>Two miles North of Caldwell, Ohio & State Route 78</li>
       <li>Two lockable cable entrances</li>
