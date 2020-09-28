@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 
 import styled from "styled-components"
 import { Button, Box, Text, Heading } from "grommet"
+import Logo from "../components/logo"
 
 const Map = styled.iframe`
   width: 100%;
@@ -15,6 +16,9 @@ const Map = styled.iframe`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
+    <Box pad="small">
+      <Logo />
+    </Box>
     <Box pad="medium" gap="medium">
       <Text>
         We provide a laydown yard rental property for Oil and Gas companies in
